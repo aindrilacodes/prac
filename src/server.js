@@ -12,7 +12,7 @@ app.use('/api/auth',router)
 
 
 connectDb().then(()=>{
-    app.listen(8000,()=>{
+    app.listen(PORT,()=>{
         console.log(colors.bgCyan.black("server started"))
     })
 })
